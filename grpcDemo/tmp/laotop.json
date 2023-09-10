@@ -1,0 +1,62 @@
+{
+  "id": "d3bafe6e-87ba-4e3c-9b6f-c797506f803d",
+  "brand": "Apple",
+  "name": "Macbook Pro",
+  "cpu": {
+    "brand": "Intel",
+    "name": "Xeon E-2286M",
+    "number_cores": 7,
+    "number_threads": 7,
+    "min_ghz": 2.585402185314559,
+    "max_ghz": 3.2932339406469167
+  },
+  "ram": {
+    "value": "56",
+    "unit": "GIGABYTE"
+  },
+  "gpus": [
+    {
+      "brand": "NVIDIA",
+      "name": "RTX 2070",
+      "min_ghz": 1.0768899418307254,
+      "max_ghz": 1.7337190721783606,
+      "memory": {
+        "value": "3",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "storages": [
+    {
+      "driver": "HDD",
+      "memory": {
+        "value": "2",
+        "unit": "TERABYTE"
+      }
+    },
+    {
+      "driver": "SSD",
+      "memory": {
+        "value": "413",
+        "unit": "GIGABYTE"
+      }
+    }
+  ],
+  "screen": {
+    "size_inch": 16.03129,
+    "resolution": {
+      "width": 2993,
+      "height": 1684
+    },
+    "panel": "IPS",
+    "multitouch": false
+  },
+  "keyboard": {
+    "layout": "QWERTY",
+    "backlit": false
+  },
+  "weight_kg": 1.2400749168461647,
+  "price_usd": 1742.2651461393405,
+  "release_year": 2019,
+  "updated_at": "2023-08-26T11:14:54.880105200Z"
+}

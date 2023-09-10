@@ -1,0 +1,17 @@
+syntax = "proto3";
+package pcbook;
+option go_package = "../pb";  // 对应：生成位置;包名
+message Memory{
+    enum Unit{
+        UNKNOW = 0;
+        BIT = 1;
+        BYTE = 2;
+        KILOBYTE = 3;
+        MEGABYTE = 4;
+        GIGABYTE = 5;
+        TERABYTE = 6;
+    }
+
+    uint64 value = 1;
+    Unit unit = 2;
+}
